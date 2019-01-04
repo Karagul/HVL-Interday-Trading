@@ -31,6 +31,7 @@ log = logbook.Logger('algo')
 
 def record(*args, **kwargs):
     print('args={}, kwargs={}'.format(args, kwargs))
+    log.info("START TEST")
 
 def initialize (context): # runs once when script starts
     #context is a python dictionary that contains information on portfolio/performance.
